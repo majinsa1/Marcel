@@ -1,0 +1,22 @@
+{
+  "group": "GROUP02 square straight",
+  "N": 5000,
+  "L": 50.0,
+  "rho": 2.0,
+  "K": [
+    0.0,
+    1.5
+  ],
+  "boundaries": [
+    "mirror",
+    "sliding",
+    "mixed",
+    "soft",
+    "periodic"
+  ],
+  "Omega": 0,
+  "particle_force": 0,
+  "seed": 20261022,
+  "target_time": 8.0,
+  "interpretation": "soft wall is a force, not a hard constraint; periodic has no real wall"
+}

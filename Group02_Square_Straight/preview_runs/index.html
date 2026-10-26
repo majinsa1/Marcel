@@ -1,0 +1,138 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GROUP02: Square straight particles</title>
+<style>body{font-family:system-ui,Arial,sans-serif;color:#222;background:white;max-width:1200px;margin:25px auto;padding:0 15px}img,video{max-width:100%;height:auto}a{color:#2878a8}section{border:1px solid #dde3e8;border-radius:10px;padding:16px;margin:12px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}</style>
+<h1>第二组：纯直线粒子 · 方形边界对照</h1>
+<p>五种边界：镜面、切向滑移、反射/滑移混合、软势、周期性。Ω=0；点粒子，不含粒子间机械排斥。白底高清。</p>
+<p><strong>说明：</strong>周期框仅为基本胞，并非真实墙面。软壁虚线表示势开始作用的区域；外实线为名义边界，粒子可能短暂越过。图中t均以各模拟实际记录为准，t=300并不等于已证实稳态。</p>
+<section><h2>五种边界比较，K=0</h2>
+<video controls muted playsinline src="compare_boundaries/K_0/comparison.mp4"></video>
+<img src="compare_boundaries/K_0/comparison_final.png">
+<img src="compare_boundaries/K_0/comparison_metrics.png">
+</section>
+<section><h2>五种边界比较，K=1.5</h2>
+<video controls muted playsinline src="compare_boundaries/K_1.5/comparison.mp4"></video>
+<img src="compare_boundaries/K_1.5/comparison_final.png">
+<img src="compare_boundaries/K_1.5/comparison_metrics.png">
+</section>
+<section><h2>Mirror reflection</h2>
+<video controls muted playsinline src="mirror/comparison.mp4"></video>
+<img src="mirror/comparison_final.png">
+<img src="mirror/comparison_metrics.png">
+<div class="grid">
+<div><h3>K=0，当前实际 t=30</h3>
+<video controls muted playsinline loop src="mirror/K_0_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="mirror/K_0_seed20261022/snapshots.png">
+<img loading="lazy" src="mirror/K_0_seed20261022/particles_final.png">
+<img loading="lazy" src="mirror/K_0_seed20261022/heading_final.png">
+<img loading="lazy" src="mirror/K_0_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="mirror/K_0_seed20261022/density.png">
+<img loading="lazy" src="mirror/K_0_seed20261022/metrics.png">
+</div>
+<div><h3>K=1.5，当前实际 t=30</h3>
+<video controls muted playsinline loop src="mirror/K_1.5_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="mirror/K_1.5_seed20261022/snapshots.png">
+<img loading="lazy" src="mirror/K_1.5_seed20261022/particles_final.png">
+<img loading="lazy" src="mirror/K_1.5_seed20261022/heading_final.png">
+<img loading="lazy" src="mirror/K_1.5_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="mirror/K_1.5_seed20261022/density.png">
+<img loading="lazy" src="mirror/K_1.5_seed20261022/metrics.png">
+</div>
+</div></section>
+<section><h2>Tangential sliding</h2>
+<video controls muted playsinline src="sliding/comparison.mp4"></video>
+<img src="sliding/comparison_final.png">
+<img src="sliding/comparison_metrics.png">
+<div class="grid">
+<div><h3>K=0，当前实际 t=30</h3>
+<video controls muted playsinline loop src="sliding/K_0_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="sliding/K_0_seed20261022/snapshots.png">
+<img loading="lazy" src="sliding/K_0_seed20261022/particles_final.png">
+<img loading="lazy" src="sliding/K_0_seed20261022/heading_final.png">
+<img loading="lazy" src="sliding/K_0_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="sliding/K_0_seed20261022/density.png">
+<img loading="lazy" src="sliding/K_0_seed20261022/metrics.png">
+</div>
+<div><h3>K=1.5，当前实际 t=8</h3>
+<video controls muted playsinline loop src="sliding/K_1.5_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="sliding/K_1.5_seed20261022/snapshots.png">
+<img loading="lazy" src="sliding/K_1.5_seed20261022/particles_final.png">
+<img loading="lazy" src="sliding/K_1.5_seed20261022/heading_final.png">
+<img loading="lazy" src="sliding/K_1.5_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="sliding/K_1.5_seed20261022/density.png">
+<img loading="lazy" src="sliding/K_1.5_seed20261022/metrics.png">
+</div>
+</div></section>
+<section><h2>Mixed mirror / sliding</h2>
+<video controls muted playsinline src="mixed/comparison.mp4"></video>
+<img src="mixed/comparison_final.png">
+<img src="mixed/comparison_metrics.png">
+<div class="grid">
+<div><h3>K=0，当前实际 t=8</h3>
+<video controls muted playsinline loop src="mixed/K_0_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="mixed/K_0_seed20261022/snapshots.png">
+<img loading="lazy" src="mixed/K_0_seed20261022/particles_final.png">
+<img loading="lazy" src="mixed/K_0_seed20261022/heading_final.png">
+<img loading="lazy" src="mixed/K_0_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="mixed/K_0_seed20261022/density.png">
+<img loading="lazy" src="mixed/K_0_seed20261022/metrics.png">
+</div>
+<div><h3>K=1.5，当前实际 t=8</h3>
+<video controls muted playsinline loop src="mixed/K_1.5_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="mixed/K_1.5_seed20261022/snapshots.png">
+<img loading="lazy" src="mixed/K_1.5_seed20261022/particles_final.png">
+<img loading="lazy" src="mixed/K_1.5_seed20261022/heading_final.png">
+<img loading="lazy" src="mixed/K_1.5_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="mixed/K_1.5_seed20261022/density.png">
+<img loading="lazy" src="mixed/K_1.5_seed20261022/metrics.png">
+</div>
+</div></section>
+<section><h2>Soft wall potential</h2>
+<video controls muted playsinline src="soft/comparison.mp4"></video>
+<img src="soft/comparison_final.png">
+<img src="soft/comparison_metrics.png">
+<div class="grid">
+<div><h3>K=0，当前实际 t=8</h3>
+<video controls muted playsinline loop src="soft/K_0_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="soft/K_0_seed20261022/snapshots.png">
+<img loading="lazy" src="soft/K_0_seed20261022/particles_final.png">
+<img loading="lazy" src="soft/K_0_seed20261022/heading_final.png">
+<img loading="lazy" src="soft/K_0_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="soft/K_0_seed20261022/density.png">
+<img loading="lazy" src="soft/K_0_seed20261022/metrics.png">
+</div>
+<div><h3>K=1.5，当前实际 t=8</h3>
+<video controls muted playsinline loop src="soft/K_1.5_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="soft/K_1.5_seed20261022/snapshots.png">
+<img loading="lazy" src="soft/K_1.5_seed20261022/particles_final.png">
+<img loading="lazy" src="soft/K_1.5_seed20261022/heading_final.png">
+<img loading="lazy" src="soft/K_1.5_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="soft/K_1.5_seed20261022/density.png">
+<img loading="lazy" src="soft/K_1.5_seed20261022/metrics.png">
+</div>
+</div></section>
+<section><h2>Periodic (no walls)</h2>
+<video controls muted playsinline src="periodic/comparison.mp4"></video>
+<img src="periodic/comparison_final.png">
+<img src="periodic/comparison_metrics.png">
+<div class="grid">
+<div><h3>K=0，当前实际 t=8</h3>
+<video controls muted playsinline loop src="periodic/K_0_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="periodic/K_0_seed20261022/snapshots.png">
+<img loading="lazy" src="periodic/K_0_seed20261022/particles_final.png">
+<img loading="lazy" src="periodic/K_0_seed20261022/heading_final.png">
+<img loading="lazy" src="periodic/K_0_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="periodic/K_0_seed20261022/density.png">
+<img loading="lazy" src="periodic/K_0_seed20261022/metrics.png">
+</div>
+<div><h3>K=1.5，当前实际 t=8</h3>
+<video controls muted playsinline loop src="periodic/K_1.5_seed20261022/particles.mp4"></video>
+<img loading="lazy" src="periodic/K_1.5_seed20261022/snapshots.png">
+<img loading="lazy" src="periodic/K_1.5_seed20261022/particles_final.png">
+<img loading="lazy" src="periodic/K_1.5_seed20261022/heading_final.png">
+<img loading="lazy" src="periodic/K_1.5_seed20261022/sampled_tracks.png">
+<img loading="lazy" src="periodic/K_1.5_seed20261022/density.png">
+<img loading="lazy" src="periodic/K_1.5_seed20261022/metrics.png">
+</div>
+</div></section>
+</html>
