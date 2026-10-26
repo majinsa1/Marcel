@@ -1,0 +1,20 @@
+GROUP02 - Straight Active Particles - Square Boundary
+====================================================
+
+5 boundaries: MIRROR / SLIDING / MIXED / SOFT / PERIODIC
+White background, blue particles. N=5000, L=50.
+
+1) Double-click OPEN_PREVIEW_RESULTS.bat to see REAL PREVIEW DATA.
+   Preliminary simulations show t=8 for a shared cross-boundary comparison.
+   Some individual experiments were extended to t=30.
+   This package does NOT contain 20 completed t=300 runs.
+
+2) Open "code" and run "01_check_python_and_model.bat".
+3) Run "02_quick_test_N500.bat" to check your computer.
+4) Run "03_formal_K0_K1p5_t300.bat" for N=5000 and t=300.
+5) Run "04_scan_K05_K3_t300.bat" later for extra K values.
+
+Outputs: %USERPROFILE%\N5000_square_runs\index.html
+The output folder is outside OneDrive in typical configurations.
+
+Read README_第二组方形直线粒子.md for full Chinese notes.

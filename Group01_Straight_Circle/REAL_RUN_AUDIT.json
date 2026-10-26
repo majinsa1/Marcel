@@ -1,0 +1,72 @@
+{
+  "group": "01 straight circle",
+  "N": 5000,
+  "mirror_tests": "17 passed",
+  "end": 60,
+  "video_comparison_seconds": 4.066667,
+  "visual_theme": "light background with blue particles and dark boundary",
+  "cases": [
+    {
+      "K": 0.0,
+      "N": 5000,
+      "boundary": "specular",
+      "t_final": 59.9999999999998,
+      "polar_P": 0.01619752787739367,
+      "local_Q": -0.003172737707445097,
+      "edge_fraction": 0.1384,
+      "edge_enrichment_E": 1.0119195952041444,
+      "signed_C": 0.0168316276744159,
+      "same_initial_state": true,
+      "max_boundary_overshoot": -5.611220226953151e-05,
+      "particle_movie_seconds": 4.066667,
+      "heading_movie_seconds": 4.066667
+    },
+    {
+      "K": 0.5,
+      "N": 5000,
+      "boundary": "specular",
+      "t_final": 59.9999999999998,
+      "polar_P": 0.1457674216074258,
+      "local_Q": 0.5424805606967705,
+      "edge_fraction": 0.6138,
+      "edge_enrichment_E": 4.487834158499306,
+      "signed_C": 0.570589769566792,
+      "same_initial_state": true,
+      "max_boundary_overshoot": 1.1082567148434919e-06,
+      "particle_movie_seconds": 4.066667,
+      "heading_movie_seconds": 4.066667
+    },
+    {
+      "K": 1.5,
+      "N": 5000,
+      "boundary": "specular",
+      "t_final": 59.999999999999005,
+      "polar_P": 0.17627036776948096,
+      "local_Q": 0.8923443442908309,
+      "edge_fraction": 0.6222,
+      "edge_enrichment_E": 4.54925124375736,
+      "signed_C": -0.0820668351675236,
+      "same_initial_state": true,
+      "max_boundary_overshoot": 1.1082567148434919e-06,
+      "particle_movie_seconds": 4.066667,
+      "heading_movie_seconds": 4.066667
+    },
+    {
+      "K": 3.0,
+      "N": 5000,
+      "boundary": "specular",
+      "t_final": 59.99999999999889,
+      "polar_P": 0.1034613710011959,
+      "local_Q": 0.991776783170182,
+      "edge_fraction": 0.7634,
+      "edge_enrichment_E": 5.58164320071419,
+      "signed_C": 0.6791526898289136,
+      "same_initial_state": true,
+      "max_boundary_overshoot": 1.1082567148434919e-06,
+      "particle_movie_seconds": 4.066667,
+      "heading_movie_seconds": 4.066667
+    }
+  ],
+  "steady_state": "not confirmed",
+  "note": "Two N5000 runs reused from previous verified outputs; two additional runs calculated here."
+}
