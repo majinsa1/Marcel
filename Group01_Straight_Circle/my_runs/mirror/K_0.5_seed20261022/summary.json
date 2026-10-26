@@ -1,0 +1,20 @@
+{
+  "status": "unconfirmed",
+  "record_start": 0.0,
+  "record_end": 59.9999999999998,
+  "confirmed_start": null,
+  "N": 5000,
+  "steps": 3000,
+  "minimum_dt": 0.019999999999974705,
+  "elapsed_seconds": 41.620228399988264,
+  "omega_realized_mean": 0.0,
+  "omega_realized_std": 0.0,
+  "omega_min": 0.0,
+  "omega_max": 0.0,
+  "model_type": "point_alignment",
+  "nominal_packing_fraction": null,
+  "frequency_window_start": 0.0,
+  "frequency_window_end": 59.9999999999998,
+  "late_continuous_frequency_std": 0.02551549680391067,
+  "warning": "Finite-window screening is not a proof of asymptotic steady state. Fixed runs are unconfirmed."
+}
